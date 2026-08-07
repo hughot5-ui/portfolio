@@ -16,7 +16,7 @@ const bookCovers: Item[] = [
   { src: `${import.meta.env.BASE_URL}work/commission/commission-04.jpg`, alt: 'Book Cover — 블루' },
   { src: `${import.meta.env.BASE_URL}work/commission/commission-05.jpg`, alt: 'Book Cover — 라...' },
   { src: `${import.meta.env.BASE_URL}work/commission/commission-06.jpg`, alt: 'Book Cover — Dance' },
-  { src: `${import.meta.env.BASE_URL}work/commission/만화_표지_목업 copy copy copy copy copy.jpg`, alt: 'Book Cover — 시간이 우리를 사랑한 방식' },
+  { src: `${import.meta.env.BASE_URL}work/commission/book-cover-time-love.jpg`, alt: 'Book Cover — 시간이 우리를 사랑한 방식' },
 ];
 
 function ImageGrid({ items, cols }: { items: Item[]; cols: string }) {
