@@ -4,19 +4,19 @@ import { useScrollReveal } from '../hooks/useScrollReveal';
 type Item = { src: string; alt: string };
 
 const logos: Item[] = [
-  { src: '/work/commission/commission-01.png', alt: 'Logo — PANDA 魅了' },
-  { src: '/work/commission/commission-02.png', alt: 'Logo — yCN soul' },
-  { src: '/work/commission/commission-03.png', alt: 'Logo — Pale Blue Lo' },
-  { src: '/work/commission/commission-07.png', alt: 'Logo — ゆごまだ' },
-  { src: '/work/commission/commission-08.png', alt: 'Logo — GATEWAY' },
-  { src: '/work/commission/commission-09.png', alt: 'Logo — ぼくかな' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-01.png`, alt: 'Logo — PANDA 魅了' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-02.png`, alt: 'Logo — yCN soul' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-03.png`, alt: 'Logo — Pale Blue Lo' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-07.png`, alt: 'Logo — ゆごまだ' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-08.png`, alt: 'Logo — GATEWAY' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-09.png`, alt: 'Logo — ぼくかな' },
 ];
 
 const bookCovers: Item[] = [
-  { src: '/work/commission/commission-04.jpg', alt: 'Book Cover — 블루' },
-  { src: '/work/commission/commission-05.jpg', alt: 'Book Cover — 라...' },
-  { src: '/work/commission/commission-06.jpg', alt: 'Book Cover — Dance' },
-  { src: '/work/commission/만화_표지_목업 copy copy copy copy copy.jpg', alt: 'Book Cover — 시간이 우리를 사랑한 방식' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-04.jpg`, alt: 'Book Cover — 블루' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-05.jpg`, alt: 'Book Cover — 라...' },
+  { src: `${import.meta.env.BASE_URL}work/commission/commission-06.jpg`, alt: 'Book Cover — Dance' },
+  { src: `${import.meta.env.BASE_URL}work/commission/만화_표지_목업 copy copy copy copy copy.jpg`, alt: 'Book Cover — 시간이 우리를 사랑한 방식' },
 ];
 
 function ImageGrid({ items, cols }: { items: Item[]; cols: string }) {
