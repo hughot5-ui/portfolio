@@ -202,11 +202,11 @@ const projects: Project[] = [
   {
     id: 2,
     title: '헝키쇼',
-    subtitle: 'Event Poster',
+    subtitle: 'Musical Poster · 19+',
     mainCategory: 'Graphic Design',
     subCategory: '',
     description:
-      '헝가리안 키쇼 이벤트 포스터. 강렬한 컬러와 역동적인 타이포그래피로 공연의 에너지를 시각화했습니다. 메인 비주얼과 텍스트 정보의 균형으로 시선을 사로잡는 레이아웃을 완성했습니다.',
+      '19금 뮤지컬 <헝키쇼> 공연 포스터. 강렬한 컬러와 역동적인 타이포그래피로 성인 공연 특유의 파격적이고 자극적인 무드를 시각화했습니다. 메인 비주얼과 텍스트 정보의 균형으로 시선을 사로잡는 레이아웃을 완성했습니다.',
     software: 'Photoshop · Illustrator',
     images: [`${import.meta.env.BASE_URL}work/poster-hungki.jpg`],
     accent: '#e8552d',
@@ -214,11 +214,11 @@ const projects: Project[] = [
   {
     id: 3,
     title: '라인업',
-    subtitle: 'Lineup Poster',
+    subtitle: 'Musical Poster · Youth',
     mainCategory: 'Graphic Design',
     subCategory: '',
     description:
-      '페스티벌 라인업 포스터. 참여 아티스트 정보를 계층적으로 배치하고, 그래픽 요소와 컬러로 이벤트의 분위기를 전달합니다. 정보 전달과 시각적 임팩트를 동시에 잡은 디자인입니다.',
+      '청소년 뮤지컬 <라인업> 공연 포스터. 참여 배우 정보를 계층적으로 배치하고, 밝고 안정적인 그래픽 요소와 컬러로 청소년 공연에 어울리는 건강한 분위기를 전달합니다. 정보 전달과 시각적 임팩트를 동시에 잡은 디자인입니다.',
     software: 'Photoshop · Illustrator',
     images: [`${import.meta.env.BASE_URL}work/poster-lineup.jpg`],
     accent: '#7b3ff2',
