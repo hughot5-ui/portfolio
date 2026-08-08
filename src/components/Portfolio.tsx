@@ -572,7 +572,7 @@ export default function Portfolio({ selectedId, onClearSelected }: { selectedId?
               The <span className="italic text-[#D4614A]">Portfolio</span>
             </h2>
             <p className="mt-4 max-w-md text-[#3d3530] font-light leading-relaxed">
-              그래픽 디자인부터 에디토리얼, 브랜딩까지 — 책임감과 성실함을 바탕으로 완성한 작업들입니다.
+              그래픽 디자인부터 에디토리얼, 브랜딩까지 —<br> 책임감과 성실함을 바탕으로 완성한 작업들입니다.
             </p>
           </div>
           <div className="fade-up delay-200 hidden md:flex items-center gap-2 text-xs tracking-[0.15em] uppercase text-[#8a7a6a]">

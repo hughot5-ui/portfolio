@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-[#e0d8c8]/60 flex flex-col md:flex-row items-center justify-between gap-3 text-[10px] tracking-[0.15em] uppercase text-[#8a7a6a]">
-          <p>© 2025—26 Daeun Kim — All rights reserved</p>
+          <p>© 2025—26 Daeun Lee — All rights reserved</p>
           <p className="flex items-center gap-2">
             Designed & built with intention
             <Star size={11} className="text-[#D4614A] fill-[#D4614A]" />
