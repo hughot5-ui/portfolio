@@ -443,14 +443,18 @@ const projects: Project[] = [
   },
   {
     id: 19,
-    title: 'AI 상세페이지',
-    subtitle: 'Detail Page · AI Generated',
+    title: 'AI 브랜딩 — 해:빛',
+    subtitle: 'Brand Identity & Package · AI Generated',
     mainCategory: 'Web Design',
     subCategory: '',
     description:
-      'AI 툴을 활용해 제작한 모바일 상세페이지 디자인. 제품의 핵심 특징과 매력을 시각적으로 전달하며, 트렌디한 컬러와 구성으로 소비자 시선을 사로잡는 레이아웃을 완성했습니다.',
+      'AI 툴을 활용해 기획부터 완성한 시리얼 브랜드 "해:빛"의 브랜딩 프로젝트. 로고·컬러 팔레트 등 브랜드 아이덴티티 설계부터 패키지 디자인, 광고 포스터, 모바일 상세페이지까지 하나의 톤앤매너로 통일감 있게 구성했습니다.',
     software: 'AI',
-    images: [`${import.meta.env.BASE_URL}work/ai-generated/ai-generated-detail.png`],
+    images: [
+      `${import.meta.env.BASE_URL}work/ai-generated/haebit-brand-board.png`,
+      `${import.meta.env.BASE_URL}work/ai-generated/haebit-poster.png`,
+      `${import.meta.env.BASE_URL}work/ai-generated/haebit-detail-page.png`,
+    ],
     accent: '#10b981',
   },
   {
